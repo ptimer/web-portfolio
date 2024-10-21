@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
+	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+	<title>Illia Bilous</title>
+</head>
+<body>
+	<header class='l-header'>
+		<nav class='nav bd-grid'>
+			<div class='nav__toggle' id='nav-toggle'>
+				<i class='bx bx-menu'></i>
+			</div>
+
+			<div>
+				<a href="#" class='nav__logo'>Illia</a>
+			</div>
+
+			<div class='nav__menu' id='nav-menu'>
+				<div class='nav__close' id='nav-close'>
+					<i class='bx bx-x'></i>
+				</div>
+
+				<ul class='nav__list'>
+					<li class='nav__item'><a href="#home" class='nav__link'>CV</a></li>
+					<li class='nav__item'><a href="#projects" class='nav__link'>Projects</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<main class='l-main'>
+		<!-- ======= HOME ========= --> 
+		<section class='home' id='home'>
+			<div class="home__container bd-grid">
+				<div class='home__data'>
+					<div class='home__img'>
+						<img src="assets/photo.jpg" alt="">
+					</div>
+					<h1 class='home__title'>Illia Bilous</h1>
+					<span class='home__profession'>Frontend Developer</span>
+
+					<div class='home__social'>
+						<a href="https://www.linkedin.com/in/illia-bilous-36121324a/" title='https://www.linkedin.com/in/illia-bilous-36121324a/'target='_blank' class='home__social-link'><i class='bx bxl-linkedin'></i></a>
+						<a href="https://github.com/ptimer" title='https://github.com/ptimer'target='_blank' class='home__social-link'><i class='bx bxl-github'></i></a>
+						<a href="https://t.me/illia_bilou" title='hhttps://t.me/illia_bilou'target='_blank' class='home__social-link'><i class='bx bxl-telegram'></i></a>
+					</div>
+
+					<a href="assets/cv.pdf" target='_blank' class='button home__button'>CV</a>
+				</div>
+			</div>
+		</section>
+
+		<!-- ======= PROJECTS ========= --> 
+
+		<section class='projects section' id='projects'>
+			<h2 class='section-title'>Projects</h2>
+
+			<div class='projects__container bd-grid'>
+
+				<div class='projects__item'>
+					<div class='projects__img'>
+						<img src="assets/budget-app-preview.png">
+					</div>
+
+					<div class='projects__data'>
+						<a target='_blank' href="https://ptimer.github.io/web-budgeting-app/" class='projects__link'>
+							<i class='bx bx-link-alt'></i>
+							<span>Live Preview</span>
+						</a>
+						<span class='projects__title'>
+							An interactive budget app using React Router and local storage.
+						</span>
+					</div>
+				</div>
+
+				<div class='projects__item'>
+					<div class='projects__img'>
+						<img src="assets/sticky-notes-preview.png">
+					</div>
+
+					<div class='projects__data'>
+						<a target='_blank' href="https://ptimer.github.io/sticky_notes/" class='projects__link'>
+							<i class='bx bx-link-alt'></i>
+							<span>Live Preview</span>
+						</a>
+						<span class='projects__title'>
+							Simple note-taking app built with React and using Appwrite for data storage.
+						</span>
+					</div>
+				</div>
+
+				<div class='projects__item'>
+					<img src="assets/space-website-preview.png">
+
+					<div class='projects__data'>
+						<a target='_blank' href="https://ptimer.github.io/space-website/" class='projects__link'>
+							<i class='bx bx-link-alt'></i>
+							<span>Live Preview</span>
+						</a>
+						<span class='projects__title'>
+							Landing Page
+						</span>
+					</div>
+				</div>
+
+				<div class='projects__item'>
+					<img src="assets/old-portfolio-preview.png">
+
+					<div class='projects__data'>
+						<a target='_blank' href="https://bilous.surge.sh/" class='projects__link'>
+							<i class='bx bx-link-alt'></i>
+							<span>Live Preview</span>
+						</a>
+						<span class='projects__title'>
+							Old 2022 Portfolio
+						</span>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<!-- ======= FOOTER ========= --> 
+	<footer class='footer section'>
+		<div class="footer__container bd-grid">
+			<h2 class="footer__title">E-mail: bilous.job@yahoo.com</h2>
+		</div>
+	</footer>
+
+	<!-- ======= MAIN.JS ========= --> 
+	<script src='js/main.js'></script>
+</body>
+</html>
